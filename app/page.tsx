@@ -1,9 +1,11 @@
-import Image from "next/image";
+import ExploreBtn from "@/components/ExploreBtn";
 
 export default function Home() {
   return (
-    <>
-    <h1>Welcome to Next Js 16</h1>
-    </>
+    <section>
+      <h1 className="text-center">The Hub For Every Dev</h1>
+      <p className="text-center mt-5">hackerthons, Meetups and conference in one places</p>
+      <ExploreBtn />
+    </section>
   );
 }
