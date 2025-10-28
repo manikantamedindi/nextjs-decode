@@ -1,5 +1,6 @@
 import LightRays from "@/components/LightRays";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
 
 
 export const metadata = {
@@ -32,6 +33,7 @@ export default function RootLayout({
     distortion={0.01}
   />
  </div>
+ <Navbar/>
         <main>{children}</main>
       </body>
     </html>
